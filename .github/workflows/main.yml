@@ -6,7 +6,7 @@ jobs:
     name: A job to say hello
     steps:
       - name: Hello world action step
-        uses: armandokun/bellbird@v1.5
+        uses: armandokun/bellbird@v1.6
         with:
           who-to-greet: 'Mona the Octocat'
       # Use the output from the `hello` step

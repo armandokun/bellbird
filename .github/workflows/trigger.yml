@@ -11,8 +11,8 @@ jobs:
     steps:
       - name: Trigger step
         id: trigger
-        uses: armandokun/bellbird@v1.3
-        if: ${GITHUB_WORKFLOW} == '${workflow-name}' && ${GITHUB_RUN_NUMBER} == 1
+        uses: armandokun/bellbird@v1.5
+        # if: ${GITHUB_WORKFLOW} == '${workflow-name}' && ${GITHUB_RUN_NUMBER} == 1
         with:
           workflow-name: 'A job to say hello'
           who-to-greet: 'Mona the Octocat'

@@ -1,5 +1,5 @@
 {
-  "name": "bellbird",
+  "name": "hello-world-javascript-action",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,17 +8,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/armandokun/bellbird.git"
+    "url": "git+https://github.com/kubowania/hello-world-javascript-action.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/armandokun/bellbird/issues"
+    "url": "https://github.com/kubowania/hello-world-javascript-action/issues"
   },
-  "homepage": "https://github.com/armandokun/bellbird#readme",
+  "homepage": "https://github.com/kubowania/hello-world-javascript-action#readme",
   "dependencies": {
-    "@actions/core": "^1.8.1",
-    "@actions/github": "^5.0.2"
+    "@actions/core": "1.2.5",
+    "@actions/github": "4.0.0"
   }
 }

@@ -1,15 +1,11 @@
 const core = require("@actions/core");
 const github = require("@actions/github");
 
-function timeout(ms) {
-  return new Promise((resolve) => setTimeout(resolve, ms));
-}
-
 try {
   const nameToGreet = core.getInput("who-to-greet");
   console.log(`Hello ${nameToGreet}!`);
 
-  timeout(5000);
+  await new Promise((resolve) => setTimeout(resolve, 5000));
 
   // Get the JSON webhook payload for the event that triggered the workflow
   const payload = JSON.stringify(github.context.payload, undefined, 2);

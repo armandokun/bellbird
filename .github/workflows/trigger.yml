@@ -13,6 +13,6 @@ jobs:
         id: trigger
         uses: armandokun/bellbird@wtfisthis
         with:
-          workflow-name: 'Jenkins'
+          workflow-name: 'Not Jenkins'
       - name: Get the output time
         run: echo "The time was ${{ steps.hello.outputs.time }}"

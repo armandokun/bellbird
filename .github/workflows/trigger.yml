@@ -11,7 +11,7 @@ jobs:
     steps:
       - name: Trigger step
         id: trigger
-        uses: armandokun/bellbird@v1.6
+        uses: armandokun/bellbird@mainv2
         with:
           workflow-name: 'Jenkins'
       - name: Get the output time

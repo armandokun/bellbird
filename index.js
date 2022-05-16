@@ -15,6 +15,8 @@ try {
   const payload = JSON.stringify(github.context.payload, undefined, 2);
   console.log(`The event payload: ${payload}`);
 
+  console.log(`Github Action: ${github.context}`);
+
   const time = new Date().toTimeString();
   core.setOutput("time", time);
 } catch (error) {

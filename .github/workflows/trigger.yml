@@ -12,10 +12,7 @@ jobs:
       - name: Trigger step
         id: trigger
         uses: armandokun/bellbird@v1.6
-        if: ${GITHUB_WORKFLOW} == '${workflow-name}' && ${GITHUB_RUN_NUMBER} == 1
         with:
-          workflow-name: 'A job to say hello'
-          who-to-greet: 'Mona the Octocat'
-      # Use the output from the `hello` step
+          workflow-name: 'Jenkins'
       - name: Get the output time
         run: echo "The time was ${{ steps.hello.outputs.time }}"

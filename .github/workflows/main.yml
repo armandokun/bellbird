@@ -6,7 +6,7 @@ jobs:
     name: Jenkins
     steps:
       - name: Jenkinks check
-        uses: armandokun/bellbird@main
+        uses: armandokun/bellbird@mainv2
         with:
           who-to-greet: 'Mona the Octocat'
       # Use the output from the `hello` step
